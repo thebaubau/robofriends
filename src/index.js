@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provide, connect } from 'react-redux'
+import { createStore } from 'redux';
 import './index.css';
 import App from './containers/App'
 import reportWebVitals from './reportWebVitals';
